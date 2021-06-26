@@ -1,0 +1,118 @@
+h1 {
+    font-family: 'KoHo', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: 'Itim', cursive;
+    font-size: large;
+}
+
+.ulli {
+    font-family: 'Satisfy', cursive;
+    font-size: x-large;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+
+  .yup {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: #111;
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  body { 
+    background-color: rgb(188, 255, 111);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    }
+
+    p {
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    li {
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .tags {
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    h2 {
+      font-family: 'Source Code Pro', monospace;
+      font-size: x-large;
+    }
+
+    .img {
+        padding-left: 200px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      /* box-shadow: 10px 8px 10px -1px rgba(0,0,0,0.25); */
+      grid-gap: 30px;
+  }
+
+  .grid-item {
+      background-color: white;
+      padding: 10px;
+      text-align: center;
+      
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 265px 500px;
+    /* box-shadow: 10px 8px 10px -1px rgba(0,0,0,0.25); */
+    grid-gap: 30px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
