@@ -62,10 +62,7 @@ text-decoration: underline;
 }
 
 body {
-/* background-image: url(https://ak.picdn.net/shutterstock/videos/1024941779/thumb/1.jpg?ip=x480);
-background-size: cover;
-background-repeat: no-repeat; */
-background-image: radial-gradient( circle 534px at 7.8% 17.6%,  rgb(112, 254, 247) 1.7%, rgb(248, 111, 241) 91.8% );
+background-color: rgb(255, 211, 211);
 padding-left: 35px;
 }
 
